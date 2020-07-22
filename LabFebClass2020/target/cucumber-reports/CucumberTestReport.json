@@ -1,0 +1,40 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "id": "bbchomepage;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8620748500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is open BBC Home page",
+            "match": {
+              "location": "BbcHomePageStepDefination.user_is_open_BBC_Home_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@bbcHomePageTest"
+          }
+        ]
+      }
+    ],
+    "name": "BBCHomePage",
+    "description": "",
+    "id": "bbchomepage",
+    "keyword": "Feature",
+    "uri": "Features/bbcHomePage.feature"
+  }
+]
